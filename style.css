@@ -3,7 +3,6 @@
 :root{
     --gray: #BDBDBD;
     --bg: #030106;
-    --primary: #fff;
 }
 
 *{
@@ -11,7 +10,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-
 }
 
 html{
@@ -25,6 +23,11 @@ body{
     padding-left: 1.5rem;
 }
 
+main{
+    max-width: 600px;
+    padding-top:0;
+}
+
 h1,h2,h3,h4,h5,h6,p{
     font-family: 'IBM Plex Sans', sans-serif;
     margin: 0;
@@ -33,12 +36,14 @@ h1,h2,h3,h4,h5,h6,p{
 
 a:focus{background: none;}
 
-header{
+#welcome{
+    padding-top: 50px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header>div>p{
+#welcome>div>p{
     font-weight: 500;
     color: var(--gray);
 }
@@ -139,6 +144,7 @@ article{
 
 .goodbye{
     margin-top: 20px;
+    margin-bottom: 50px;
     text-align: center;
     color: var(--gray);
 }
