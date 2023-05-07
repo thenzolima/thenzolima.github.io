@@ -1,0 +1,153 @@
+@import url(https://fonts.bunny.net/css?family=ibm-plex-sans:300,400,500,600,700);
+
+:root{
+    --gray: #BDBDBD;
+    --bg: #030106;
+    --primary: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+html{
+    background-color: var(--bg);
+}
+
+body{
+    max-width: 600px;
+    margin: auto;
+    padding-right:1.5rem;
+    padding-left: 1.5rem;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+    color: #fff;
+}
+
+a:focus{background: none;}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header>div>p{
+    font-weight: 500;
+    color: var(--gray);
+}
+
+.txt{
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#redes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.redes-button{
+    font-size: 18px;
+    color: var(--gray);
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-decoration: none;
+    transition:all 0.3s ease;
+}
+
+.redes-button:hover{color: #fff;}
+
+.linha{
+    background-color: #1E1E1E;
+    height: 2px;
+    width:auto;
+}
+
+section{
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section>h5{
+    color: var(--gray);
+    font-weight: 600;
+}
+
+article{
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg);
+    gap:30px
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card>img{
+    border-radius: 10px;
+}
+
+.card>h3{
+    font-weight: 700;
+}
+
+.card>p{
+    color: var(--gray);
+}
+
+.link-button{
+    color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.email-link{
+    color:#fff;
+    font-size: 24px;
+    text-decoration: underline;
+    display: flex;
+}
+
+#spotify>p{
+    color: #424242;
+    text-align: center;
+    font-size: 14px;
+}
+
+.goodbye{
+    margin-top: 20px;
+    text-align: center;
+    color: var(--gray);
+}
+
+@media screen and (max-width: 768px) {
+    #redes{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: start;
+    }
+  }
+
