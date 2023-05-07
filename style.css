@@ -136,12 +136,6 @@ article{
     display: flex;
 }
 
-#spotify>p{
-    color: #424242;
-    text-align: center;
-    font-size: 14px;
-}
-
 .goodbye{
     margin-top: 20px;
     margin-bottom: 50px;
