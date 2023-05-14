@@ -157,6 +157,7 @@ article{
     margin-bottom: 50px;
     text-align: center;
     color: var(--gray);
+    font-size: 13px;
 }
 
 @media screen and (max-width: 768px) {
