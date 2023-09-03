@@ -3,7 +3,7 @@
 
 <head>
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Enzo Lima - Designer & Dev. Front-end." />
+    <meta property="og:title" content="Enzo Lima" />
     <meta property="og:image" content="https://i.ibb.co/XSF4hTr/preview.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Meu site pessoal, com os principais projetos e artigos que produzi.">
+    <meta name="description" content="Faço projetos criativos com design e desenvolvimento web.">
     <title>enzolima</title>
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="picocss/pico.min.css">
@@ -20,54 +20,38 @@
 </head>
 
 <body>
-    <section id="welcome">
-        <div>
-            <img src="assets/logo.svg" alt="">
-            <p>Designer & Dev. Front-end</p>
-        </div>
-        <img src="assets/foto.webp" alt="">
+    <section id="header">
+            <p>✨ thenzolima</p>
+            <div class="redes">
+                <a href="https://www.instagram.com/thenzolima/" target="_blank" rel="noopener noreferrer" class="redes-button">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+        
+                <a href="https://github.com/thenzolima" target="_blank" rel="noopener noreferrer" class="redes-button">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+            </div>
     </section>
 
-    <h4 class="txt">Olá! Sou designer & desenvolvedor front-end. Tenho o objetivo de criar soluções criativas e eficazes para uma ampla variedade de projetos.</h4>
-
-    <section id="redes">
-
-        <a href="https://www.instagram.com/thenzolima/" target="_blank" rel="noopener noreferrer" class="redes-button">
-            <ion-icon name="logo-instagram"></ion-icon>
-            <span>Instagram</span>
-        </a>
-
-        <a href="https://github.com/thenzolima" target="_blank" rel="noopener noreferrer" class="redes-button">
-            <ion-icon name="logo-github"></ion-icon>
-            <span>Github</span>
-        </a>
-
-        <a href="https://thenzolima.medium.com/" target="_blank" rel="noopener noreferrer" class="redes-button">
-            <ion-icon name="logo-medium"></ion-icon>
-            <span>Medium</span>
-        </a>
-
-        <a href="https://open.spotify.com/user/22362p3lprthtmzr7txzzy6vi?si=fa84c7dc33d94981" target="_blank" rel="noopener noreferrer" class="redes-button">
-            <ion-icon name="musical-notes"></ion-icon>
-            <span>Spotify</span>
-        </a>
-
+    <section id="hero">
+        <h4 class="title">Opa, como vai?</h4>
+        <p>Me chamo Enzo. Faço projetos criativos com design e desenvolvimento web. Também cuido de um <a href="https://jardim.thenzolima.com.br/" target="_blank" rel="noopener noreferrer"><u>Jardim Digital</u></a>, lugar dedicado aos meus artigos e ideias.</p>
     </section>
 
     <div class="linha"></div>
 
     <section id="projetos">
-        <h5>Principais projetos</h5>
+        <h6>PRINCIPAIS PROJETOS</h6>
         <article>
             <div class="card">
                 <div class="image">
                     <img src="assets/projetos/LCC.webp" alt="">
                         <a href="https://thenzolima.com.br/LCC/" target="_blank" rel="noopener noreferrer" class="overlay">
-                        <ion-icon name="arrow-forward-circle" size="large"></ion-icon>
+                            <ion-icon name="arrow-forward-circle" size="large"></ion-icon>
                         </a>
                 </div>
                 <h4>Luz, Câmera e Censura</h4>
-                <p>Catálogo sobre o cinema Brasileiro durante a Ditadura Militar. Essa ideia surgiu a partir de um trabalho de História no Campus onde estudo.</p>
+                <p>Catálogo sobre o Cinema Brasileiro durante a Ditadura Militar. Essa ideia surgiu de um trabalho de História no Campus onde estudo.</p>
             </div>
 
             <div class="card">
@@ -83,57 +67,49 @@
         </article>
     </section>
 
-    <h4 class="txt">Também escrevo artigos sobre algumas experiências da minha vida.</h4>
+    <div class="linha"></div>
 
     <section id="artigos">
-        <h5>Últimas publicações</h5>
-        <article>
-            <div class="card">
-                <div class="image">
-                    <img src="assets/artigos/destaque.svg" alt="">
-                        <a href="https://bit.ly/destaque-thenzolima" target="_blank" rel="noopener noreferrer" class="overlay">
-                        <ion-icon name="arrow-forward-circle" size="large"></ion-icon>
-                        </a>
-                </div>
+
+        <h6>ÚLTIMOS POSTS</h6>
+
+        <a href="https://jardim.thenzolima.com.br/posts/use-as-ferias/" class="post" target="_blank" rel="noopener noreferrer">
+            <div class="post-card">
+                <h4>Use as férias para descansar.</h4>
+                <p>A importância do descanso entre os projetos e as férias.</p>
+            </div>
+        </a>
+
+        <a href="https://jardim.thenzolima.com.br/posts/destaque/" class="post" target="_blank" rel="noopener noreferrer">
+            <div class="post-card">
                 <h4>Destaque o necessário.</h4>
                 <p>Algumas dicas sobre marcações e como ter uma leitura ou estudo mais eficiente.</p>
             </div>
+        </a>
 
-            <div class="card">
-                <div class="image">
-                    <img src="assets/artigos/dumphone.svg" alt="">
-                        <a href="https://bit.ly/dump-phone-thenzolima" target="_blank" rel="noopener noreferrer" class="overlay">
-                        <ion-icon name="arrow-forward-circle" size="large"></ion-icon>
-                        </a>
-                </div>
-                <h4>Transformei meu celular em um “Dump Phone”.</h4>
-                <p>Como ter deixado meu celular sem cor me ajudou a retomar o controle e encontrar equilíbrio na era dos smartphones.</p>
-            </div>
-
-            <div class="card">
-                <div class="image">
-                    <img src="assets/artigos/diario.svg" alt="">
-                        <a href="https://bit.ly/diario-thenzolima" target="_blank" rel="noopener noreferrer" class="overlay">
-                        <ion-icon name="arrow-forward-circle" size="large"></ion-icon>
-                        </a>
-                </div>
-                <h4>Tenha um diário. (sério).</h4>
+        <a href="https://jardim.thenzolima.com.br/posts/tenha-um-diario/" class="post" target="_blank" rel="noopener noreferrer">
+            <div class="post-card">
+                <h4>Tenha um diário (sério).</h4>
                 <p>Gostando ou não de escrever, ter um diário é um dos melhores hábitos que alguém pode ter para a sua vida.</p>
             </div>
-        </article>
+        </a>
     </section>
 
     <div class="linha"></div>
 
-    <section id="email" class="card">
-        <h4>Entre em contato</h4>
-        <p>Caso queira fazer um projeto comigo ou apenas interagir, fique à vontade para entrar em contato.</p>
+    <section id="contato">
+        <h4>Vamos fazer um projeto juntos!</h4>
         <a href="mailto:thenzolima@proton.me" target="_blank" rel="noopener noreferrer" class="email-link">
-            <p class="txt-email">thenzolima@proton.me</p>
+            <p class="txt-email"><u>thenzolima@proton.me</u></p>
         </a>
     </section>
 
-    <p class="goodbye">design e código feito com 💖 por mim mesmo. </p>
+    <div class="linha"></div>
+
+    <section id="footer">
+        <p class="ft-txt">&copy; 2023 | Enzo Lima</p>
+        <a href="assets/patchnotes.html"><p class="ft-txt"><u>Patch Notes</u></p></a>
+    </section>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

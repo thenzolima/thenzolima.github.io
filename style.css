@@ -1,15 +1,19 @@
-@import url(https://fonts.bunny.net/css?family=ibm-plex-sans:300,400,500,600,700);
+@font-face {
+    font-family: 'Satoshi-Variable';
+    src: url('assets/Satoshi-Variable.woff2') format('woff2');
+}
 
 :root{
-    --gray: #BDBDBD;
-    --bg: #030106;
+    --gray: #adadad;
+    --bg: #050505;
+    --white: #fafafa;
+    --black: #1D1B1B;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 html{
@@ -29,55 +33,52 @@ main{
 }
 
 h1,h2,h3,h4,h5,h6,p{
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family:'Satoshi-Variable', sans-serif;
     margin: 0;
-    color: #fff;
+    color:var(--white);
 }
-
-.link-button:focus{background: none;}
 .redes-button:focus{background: none;}
 .email-link:focus{background: none;}
+a:focus{background:none;}
 
-#welcome{
+a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+#header{
     padding-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#welcome>div>p{
-    font-weight: 500;
-    color: var(--gray);
+
+#header>p{
+    font-weight: 600;
+    font-size: 22px;
 }
 
-.txt{
-    font-weight: 500;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-#redes{
+.redes{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
 }
 
 .redes-button{
-    font-size: 18px;
+    font-size: 24px;
     color: var(--gray);
-    font-family: 'IBM Plex Sans', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
-    text-decoration: none;
     transition:all 0.3s ease;
 }
 
-.redes-button:hover{color: #fff;}
+.redes-button:hover{color: var(--white);}
 
 .linha{
-    background-color: #1E1E1E;
+    background-color: var(--black);
     height: 2px;
     width:auto;
 }
@@ -88,9 +89,9 @@ section{
     padding-bottom: 20px;
 }
 
-section>h5{
+section>h6{
+    font-weight: 500;
     color: var(--gray);
-    font-weight: 600;
 }
 
 article{
@@ -124,7 +125,7 @@ article{
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.7);
-    color: #fff;
+    color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,7 +137,6 @@ article{
     opacity: 1;
 }
 
-
 .card>h3{
     font-weight: 700;
 }
@@ -145,26 +145,30 @@ article{
     color: var(--gray);
 }
 
-.txt-email{
-    color:#fff;
-    font-size: 24px;
-    text-decoration: underline;
+#artigos{
     display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.goodbye{
-    margin-top: 20px;
-    margin-bottom: 50px;
-    text-align: center;
+.post-card{
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 8px;
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt-email{
+    color:var(--white);
+    font-size: 24px;
+}
+
+.ft-txt{
     color: var(--gray);
     font-size: 13px;
 }
-
-@media screen and (max-width: 768px) {
-    #redes{
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: start;
-    }
-  }
-
