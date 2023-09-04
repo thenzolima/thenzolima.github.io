@@ -157,6 +157,18 @@ article{
     border-radius: 8px;
 }
 
+.post-bt{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    justify-content: end;
+    margin-top: 15px;
+}
+
+.post-bt>p{
+    font-size: 16px;
+}
 #contato{
     display: flex;
     flex-direction: column;
