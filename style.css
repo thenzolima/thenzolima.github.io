@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'Satoshi-Variable';
-    src: url('assets/Satoshi-Variable.woff2') format('woff2');
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700&display=swap');
 
 :root{
     --gray: #adadad;
@@ -33,7 +30,7 @@ main{
 }
 
 h1,h2,h3,h4,h5,h6,p{
-    font-family:'Satoshi-Variable', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     margin: 0;
     color:var(--white);
 }
@@ -135,10 +132,6 @@ article{
 
 .overlay:hover{
     opacity: 1;
-}
-
-.card>h3{
-    font-weight: 700;
 }
 
 .card>p{
