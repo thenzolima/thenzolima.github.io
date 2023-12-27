@@ -92,10 +92,24 @@ article{
     justify-content: center;
     padding-top: 10px;
 }
-
 .card>p{
     color: var(--gray);
     font-size: 14px;
+}
+
+.wrapper{
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.wrapper img{
+    transition: 0.5s ease;
+}
+
+.wrapper img:hover{
+    transform: scale(1.1);
 }
 
 .posts{
