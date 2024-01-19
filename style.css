@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 html{
@@ -84,7 +84,7 @@ header>p{
 /* FIM DO HEADER */
 
 #hero{
-    font-size: 22px;
+    font-size: 21px;
     line-height: 1.3;
 }
 
