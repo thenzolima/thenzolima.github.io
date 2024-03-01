@@ -64,9 +64,7 @@ h4{
 
 header{
     padding-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
 }
 
 header p{
@@ -77,23 +75,6 @@ header p span{
     font-weight: 700;
     font-size: 20px;
 }
-
-.redes{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.redes-button{
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    transition:all 0.3s ease;
-}
-.redes-button:hover{color: var(--gray);}
-/* FIM DO HEADER */
 
 article{
     display: flex;
@@ -130,10 +111,22 @@ article{
     align-items: center;
 }
 
-.txt-email{
-    font-size:22px;
-    font-weight: 600;
-    padding-top: 5px;
+.links{
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.links-b{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #fafafa;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.links-b:hover{
+    color:var(--bg);
+    background-color: var(--white);
 }
 
 footer{
