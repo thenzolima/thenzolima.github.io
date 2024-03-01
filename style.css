@@ -143,6 +143,11 @@ footer{
     .card{
         width: 100%;
     }
+    header p span{
+        font-weight: 700;
+        font-size: 18px;
+    }
+
     h3{
         font-size: 18px;
     }
