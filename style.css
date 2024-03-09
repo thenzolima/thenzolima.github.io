@@ -24,10 +24,14 @@ body{
     padding-right:1.5rem;
     padding-left: 1.5rem;
     background-color: var(--bg);
-    display: flex;
-    flex-direction:column;
-    gap: 40px;
     opacity: 0;
+}
+
+main{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 body.fade-in {
@@ -63,17 +67,16 @@ h4{
 /* HEADER */
 
 header{
-    padding-top: 40px;
-    text-align: center;
+    padding: 40px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
 }
 
-header p{
-    font-weight: 500;
-}
-
-header p span{
+header span{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 article{
@@ -112,9 +115,8 @@ article{
 }
 
 .links{
-    padding-top: 10px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -124,8 +126,22 @@ article{
     border: 1px solid #fafafa;
     border-radius: 20px;
     transition: all 0.3s ease;
+    margin-top: 10px;
 }
 .links-b:hover{
+    color:var(--bg);
+    background-color: var(--white);
+}
+
+.links-b-i{
+    display: flex;
+    padding: 5px;
+    border: 1px solid #fafafa;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+.links-b-i:hover{
     color:var(--bg);
     background-color: var(--white);
 }
