@@ -78,6 +78,13 @@ header span{
     font-size: 24px;
 }
 
+header p{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 article{
     display: flex;
     gap: 10px;
