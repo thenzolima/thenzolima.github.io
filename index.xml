@@ -6,8 +6,15 @@
     <description>Recent content on thenzolima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://thenzolima.com.br/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atualizando meu site.</title>
+      <link>https://thenzolima.com.br/artigos/atualizando-meu-site/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://thenzolima.com.br/artigos/atualizando-meu-site/</guid>
+      <description>Comecei a desenvolver o meu site pessoal em maio do ano passado. Utilizei somente HTML e CSS para construí-lo e o Github Pages para fazer o deploy. Ele passou por diversas alterações com o passar do tempo, nelas fui reduzindo a quantidade de texto e imagens com o objetivo de ser algo minimalista.&#xA;Só que não durou muito e comecei a sentir que precisava de algo a mais. Nessa época eu já publicava alguns artigos no Medium, mas eu gostaria que eles fossem publicados em um espaço feito por mim.</description>
+    </item>
     <item>
       <title>&#34;2023&#34;.</title>
       <link>https://thenzolima.com.br/artigos/2023/</link>
@@ -83,7 +90,7 @@
       <link>https://thenzolima.com.br/agora/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://thenzolima.com.br/agora/</guid>
-      <description>Fev 24 Fevereiro foi bem rotineiro. Finalizei mais um ano letivo no IF (falta o último ano). Festei alguns aniversários (um até demais). Me despedi de alguns amigos que se mudaram por conta dos estudos, e comemorei o carnaval &amp;ldquo;longe dos perigos noturnos&amp;rdquo;.&#xA;Voltei a - lentamente - ler. Escolhi o primeiro romance de Fernando Sabino &amp;ldquo;O Encontro Marcado&amp;rdquo;. Li 1/3 dele, e já posso dizer que é uma das coisas mais diferentes que já consumi, sua escrita possui um ritmo autêntico e atual, tanto que, só fui saber depois que se tratava de uma obra de 1956.</description>
+      <description>Mar 24 Aproveitei o mês sem aula para descansar um pouco e aprender coisas novas para aprimorar os meus projetos pessoais.&#xA;O projeto onde mais me dediquei durante as férias foi o novo layout do meu site, onde uniu o conteúdo do meu jardim digital e os meus projetos em uma coisa só. Não irei me aprofundar muito aqui pois já publiquei um artigo sobre o processo de criação dele.</description>
     </item>
     <item>
       <title>Livros que li.</title>
