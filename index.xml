@@ -4,10 +4,17 @@
     <title>thenzolima</title>
     <link>https://thenzolima.com.br/</link>
     <description>Recent content on thenzolima</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://thenzolima.com.br/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O primeiro trimestre de 2024</title>
+      <link>https://thenzolima.com.br/artigos/primeiro-trimestre-2024/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://thenzolima.com.br/artigos/primeiro-trimestre-2024/</guid>
+      <description>Jan 24 Foi um bom início de ano. Aproveitei o tempo sem aula para viajar, tanto que, quase não estive em casa durante o mês. Isso fez com que eu não tivesse muito tempo de produzir. Felizmente, planejei bastante coisa.&#xA;É uma ideia parecida com o que eu já escrevi neste post, férias pode - e deve - ser uma recarga criativa.&#xA;Estou com algumas metas envolvendo projetos pessoais e criação de conteúdo em outros formatos.</description>
+    </item>
     <item>
       <title>Atualizando meu site.</title>
       <link>https://thenzolima.com.br/artigos/atualizando-meu-site/</link>
@@ -84,20 +91,6 @@
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://thenzolima.com.br/artigos/minha-experiencia-linux/</guid>
       <description>Texto editado em: 26/08/2023&#xA;O uso de linux na vida de alguém nos dias de hoje é inevitável. Por ser uma tecnologia flexível, podemos encontrá-la em diversos dispositivos e ambientes, como em computadores pessoais, setor onde sistemas baseados no pinguim tem ganhado cada vez mais destaque.&#xA;Mesmo que fatores como o fácil acesso a conteúdos introdutórios na internet e diversos computadores que possuem o pinguim como sistema nativo vem incentivando novos usuários a usarem e conhecerem mais sobre a tecnologia, ainda existe um preconceito por conta de seu passado.</description>
-    </item>
-    <item>
-      <title>Agora</title>
-      <link>https://thenzolima.com.br/agora/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://thenzolima.com.br/agora/</guid>
-      <description>Mar 24 Aproveitei o mês sem aula para descansar um pouco e aprender coisas novas para aprimorar os meus projetos pessoais.&#xA;O projeto onde mais me dediquei durante as férias foi o novo layout do meu site, onde uniu o conteúdo do meu jardim digital e os meus projetos em uma coisa só. Não irei me aprofundar muito aqui pois já publiquei um artigo sobre o processo de criação dele.</description>
-    </item>
-    <item>
-      <title>Livros que li.</title>
-      <link>https://thenzolima.com.br/lidos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://thenzolima.com.br/lidos/</guid>
-      <description>2023 Esse foi meu ano de retomada ao mundo dos livros. Apesar de ter lido relativamente pouco, aproveitei bastante os momentos de leitura. Espero ler mais no próximo ano.&#xA;Título Autor Nota Daisy Jones &amp;amp; The Six Taylor Jenkins Reid ★★★½ Siga em Frente Austin Kleon ★★★★½ Roube como um Artista Austin Kleon ★★★★½ O Príncipe Maquiavel ★★★ Mostre seu Trabalho Austin Kleon ★★★★★ Ferreiro do Bosque Maior J. R. R.</description>
     </item>
     <item>
       <title>Um acervo de bons conteúdos.</title>
